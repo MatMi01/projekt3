@@ -1,0 +1,66 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #d4c2a8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    gap: 100px;
+}
+.divgombok {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: flex-start;
+}
+.divgomb {
+    background-color: #9A7E6F;
+    padding: 50px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #E9EED9;
+    font-size: 18px;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+.divgomb:hover {
+    background-color: #E9EED9;
+    color: #54473F;
+    transform: scale(1.05);
+}
+.cim {
+    font-size: 60px;
+    color: #54473F;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.alcim {
+    font-size: 40px;
+    color: #54473F;
+    text-align: left;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.hatterkep {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('Schedius_Lajos_János_a_Magyar_Királyság_térképe_1838.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
