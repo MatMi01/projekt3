@@ -13,13 +13,12 @@ body {
     height: 100vh;
     padding: 20px;
     position: relative;
-    z-index: 1;
     gap: 100px;
 }
 .divgombok {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 30px;
     align-items: flex-start;
 }
 .divgomb {
@@ -63,4 +62,47 @@ body {
     top: 0;
     left: 0;
     z-index: 0;
+}
+@media (max-width: 576px){
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px     ;
+        position: relative;
+        z-index: 1;
+    }
+    .cim{
+        font-size: 30px;
+        text-align: center;
+    }
+    .alcim{
+        font-size: 20px;
+        text-align: center;
+    }
+    .divgombok{
+        gap: 10px;
+        text-align: center;
+    }
+    .divgomb{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 850px) {
+    .cim{
+        font-size: 30px;
+        text-align: center;
+    }
+    .alcim{
+        font-size: 20px;
+        text-align: center;
+    }
+    .divgomb{
+        width: 150px;
+        font-size: 9px;
+    }
 }
